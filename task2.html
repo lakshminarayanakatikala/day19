@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .container{
+            margin-top: 100px;
+        } */
+        :root{
+            background-color: black;
+        }
+        div{
+            display: inline-block;
+            position:;
+        
+        }
+        .box1{
+            width: 45%;
+            height: 200px;
+            background-color: lightcoral;
+            margin: 20px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box2{
+            width: 45%;
+            height: 200px;
+            background-color: lightyellow;
+            margin: 10px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+
+        }
+        .box3{
+            width: 45%;
+            height: 200px;
+            background-color: darkgray;
+            margin: 20px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+
+        }
+        .box4{
+            width: 45%;
+            height: 200px;
+            background-color: lightcyan;
+            margin: 10px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box5{
+            width: 45%;
+            height: 200px;
+            background-color: lightblue;
+            margin: 20px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+
+        }
+        .box6{
+            width: 45%;
+            height: 200px;
+            background-color: palevioletred;
+            margin: 10px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+
+        }
+        .box7{
+            width: 45%;
+            height: 100px;
+            background-color: papayawhip;
+            margin: 20px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+
+        }
+        .box8{
+            width: 44%;
+            height: 100px;
+            background-color: lightgreen;
+            margin: 10px;
+            text-align: center ;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box9{
+            width: 20%;
+            height: 100px;
+            background-color: lightseagreen;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box10{
+            width: 20%;
+            height: 100px;
+            background-color: lightsalmon;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box11{
+            width: 20%;
+            height: 100px;
+            background-color: lemonchiffon;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box12{
+            width: 20%;
+            height: 100px;
+            background-color: linen;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box13{
+            width: 20%;
+            height: 100px;
+            background-color: lightgrey;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box14{
+            width: 20%;
+            height: 100px;
+            background-color: goldenrod;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box15{
+            width: 20%;
+            height: 100px;
+            background-color: lightgoldenrodyellow;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box16{
+            width: 20%;
+            height: 100px;
+            background-color: lightseagreen;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box17{
+            width: 20%;
+            height: 100px;
+            background-color: lightgrey;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box18{
+            width: 20%;
+            height: 100px;
+            background-color: lightslategray;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box19{
+            width: 20%;
+            height: 100px;
+            background-color: lightskyblue;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box20{
+            width: 20%;
+            height: 100px;
+            background-color: lawngreen;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box21{
+            width: 20%;
+            height: 100px;
+            background-color: lightyellow;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box22{
+            width: 20%;
+            height: 100px;
+            background-color: lightslategrey;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box23{
+            width: 20%;
+            height: 100px;
+            background-color: lightsteelblue;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box24{
+            width: 20%;
+            height: 100px;
+            background-color: lightsalmon;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box25{
+            width: 20%;
+            height: 100px;
+            background-color: darkcyan;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box26{
+            width: 20%;
+            height: 100px;
+            background-color: darkgoldenrod;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box27{
+            width: 20%;
+            height: 100px;
+            background-color: darkgray;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box28{
+            width: 20%;
+            height: 100px;
+            background-color: darkgreen;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box29{
+            width: 20%;
+            height: 100px;
+            background-color: darkgrey;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box30{
+            width: 20%;
+            height: 100px;
+            background-color: darkkhaki;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box31{
+            width: 20%;
+            height: 100px;
+            background-color: darkmagenta;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box32{
+            width: 20%;
+            height: 100px;
+            background-color: darkolivegreen;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box33{
+            width: 20%;
+            height: 100px;
+            background-color: darkorange;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box34{
+            width: 20%;
+            height: 100px;
+            background-color: darkorchid;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box35{
+            width: 20%;
+            height: 100px;
+            background-color: darkred;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box36{
+            width: 20%;
+            height: 100px;
+            background-color: darksalmon;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box37{
+            width: 20%;
+            height: 100px;
+            background-color: darkseagreen;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box38{
+            width: 20%;
+            height: 100px;
+            background-color: darkslateblue;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box39{
+            width: 20%;
+            height: 100px;
+            background-color: darkslategray;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box40{
+            width: 20%;
+            height: 100px;
+            background-color: darkturquoise;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box41{
+            width: 20%;
+            height: 100px;
+            background-color: darkviolet;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box42{
+            width: 20%;
+            height: 100px;
+            background-color: dimgray;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box43{
+            width: 20%;
+            height: 100px;
+            background-color: wheat;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px black;
+            border-radius: 10px;
+        }
+        .box44{
+            width: 20%;
+            height: 100px;
+            background-color: brown;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box45{
+            width: 20%;
+            height: 100px;
+            background-color: red;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box46{
+            width: 20%;
+            height: 100px;
+            background-color: yellow;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box47{
+            width: 20%;
+            height: 100px;
+            background-color: white;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 2px 1px 5px gray;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .box48{
+            width: 20%;
+            height: 100px;
+            background-color: lightseagreen;
+            text-align: center;
+            margin: 21px;
+            box-shadow: 2px 1px 5px gray ;
+            text-shadow: 2px 1px 5px lightcyan;
+            border-radius: 10px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            background-color: green;
+            color: white;
+            position: fixed;
+            top: 0px;
+            left: 0px; 
+            width: 100%;
+            :hover{
+                background-color: lawngreen;
+                
+            }
+            padding: 5px;
+            /* border-radius: 10px; */
+            
+        }
+        
+        .h1{
+            color: white;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+        }
+        #h2{
+            color: lemonchiffon;
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JAVA SCRIPT</div>
+            <div>SQL</div>
+            <div>JAVA</div>
+            <div>BOOTSTRAP</div>
+            <div>C</div>
+            <div>C++</div>
+        </div>
+        <div class="h1">
+            <h1>Learn to Code</h1>
+            <h2 id="h2">
+                With the world's largest web developer site.
+            </h2>
+        </div>
+        <div class="box1">
+            <h1>PHP</h1>
+            <P>A web server programming language</P>
+            <button>Learn PHP</button>
+           </div>
+            <div  class="box2">
+            <h1>C++</h1>
+            <P>A JS library for developing web pages</P>
+            <button>Learn C++</button>
+           </div> <br>
+           <div class="box3">
+            <h1>JAVA</h1>
+            <P>A programming language</P>
+            <button>Learn Java</button>
+           </div> 
+           <div class="box4">
+            <h1>JQuery</h1>
+            <P>A JS library for developing web pages</P>
+            <button>Learn jQuery</button>
+           </div>
+           <div class="box5">
+            <h1>W3CSS</h1>
+            <P>A CSS framework for faster and better responsive web pages</P>
+            <button>Learn W3CSS</button>
+           </div>
+           <div class="box6">
+            <h1>Bootstrap</h1>
+            <P>A CSS framework for designing better web pages</P>
+            <button>Learn Bootstrap</button>
+           </div>
+           <div class="box7">
+            <h1>C</h1>
+           </div>
+           <div class="box8">
+            <h1>C#</h1>
+           </div>
+           <div class="box9">
+            <h1>R</h1>
+           </div>
+           <div class="box10">
+            <h1>Kotlin</h1>
+           </div>
+           <div class="box11">
+            <h1>Node.js</h1>
+           </div>
+           <div class="box12">
+            <h1>React</h1>
+           </div>
+           <div class="box13">
+            <h1>Json</h1>
+           </div>
+           <div class="box14">
+            <h1>Vue</h1>
+           </div>
+           <div class="box15">
+            <h1>My Sql</h1>
+           </div>
+           <div class="box16">
+            <h1>XML</h1>
+           </div>
+           <div class="box17">
+            <h1>Sass</h1>
+           </div>
+           <div class="box18">
+            <h1>Icons</h1>
+           </div>
+           <div class="box19">
+            <h1>RWD</h1>
+           </div>
+           <div class="box20">
+            <h1>Graphics</h1>
+           </div>
+           <div class="box21">
+            <h1>Canvas</h1>
+           </div>
+           <div class="box22">
+            <h1>raspberry pi</h1>
+           </div>
+           <div class="box23">
+            <h1>Cyber Security</h1>
+           </div>
+           <div class="box24">
+            <h1>SVG</h1>
+           </div>
+           <div class="box25">
+            <h1>Colors</h1>
+           </div>
+           <div class="box26">
+            <h1>Git</h1>
+           </div>
+           <div class="box27">
+            <h1>Matplotlib</h1>
+           </div>
+           <div class="box28">
+            <h1>Numpy</h1>
+           </div>
+           <div class="box29">
+            <h1>Pandas</h1>
+           </div>
+           <div class="box30">
+            <h1>Scipy</h1>
+           </div>
+           <div class="box31">
+            <h1>ASP</h1>
+           </div>
+           <div class="box32">
+            <h1>Angular js</h1>
+           </div>
+           <div class="box33">
+            <h1>AppMl</h1>
+           </div>
+           <div class="box34">
+            <h1>GO</h1>
+           </div>
+           <div class="box35">
+            <h1>TypeScript</h1>
+           </div>
+           <div class="box36">
+            <h1>Django</h1>
+           </div>
+           <div class="box37">
+            <h1>MongoDB</h1>
+           </div>
+           <div class="box38">
+            <h1>Statistics</h1>
+           </div>
+           <div class="box39">
+            <h1>Data Science</h1>
+           </div>
+           <div class="box40">
+            <h1>Typing Speed</h1>
+           </div>
+           <div class="box41">
+            <h1>How To</h1>
+           </div>
+           <div class="box42">
+            <h1>Code Game</h1>
+           </div>
+           <div class="box43">
+            <h1>Spaces</h1>
+           </div>
+           <div class="box44">
+            <h1>Postgre SQL</h1>
+           </div>
+           <div class="box45">
+            <h1>Excel</h1>
+           </div>
+           <div class="box46">
+            <h1>DSA</h1>
+           </div>
+           <div class="box47">
+            <h1>Machine </h1>
+           </div>
+           <div class="box48">
+            <h1>Arificial</h1>
+           </div>
+    </div>
+    
+</body>
+</html>
